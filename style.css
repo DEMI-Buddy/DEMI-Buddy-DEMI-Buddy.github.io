@@ -1,0 +1,10 @@
+#bg
+{
+	background-image:linear-gradient(purple,blue);
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	
+	min-width: 100%;
+	min-height: 100%;
+}
