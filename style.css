@@ -1,33 +1,48 @@
 *
 {
-	font-family: "Century Gothic";
 }
 
 #bg
 {
-	background-image:linear-gradient(purple,blue);
+	background-image:linear-gradient(lightgray,black);
 	position: fixed; 
 	top: 0; 
 	left: 0; 
 	
 	min-width: 100%;
 	min-height: 100%;
+	
+	display:flex;
+	flex-direction: column;
 }
 
 header
 {
+	font-family: "Century Gothic";
 	text-align: center;
+	display:flex;
+	justify-content:center;
+}
+
+body
+{
 }
 
 footer
 {
-	background-color: blue;
+	background-image: linear-gradient(red,cyan);
+	box-shadow: 1px 10px 10px black;
+	
+	display:flex;
+	justify-content: space-evenly;
 }
 
 footer a
 {
-	color:red;
+	color:white;
 	padding: 10px;
-	background-color: purple;
-	border: solid 2px red;
+	background-image: linear-gradient(red,orange);
+	border: solid 2px white;
+	border-radius:10px;
+	box-shadow: 10px 10px 5px black;
 }
