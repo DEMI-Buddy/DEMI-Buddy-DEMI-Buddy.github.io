@@ -1,11 +1,13 @@
 *
 {
+	color:white;
+	font-family: "Century Gothic";
 }
 
 #bg
 {
-	background-image:linear-gradient(lightgray,black);
-	position: fixed; 
+	background-image:linear-gradient(purple,black);
+	position: flex; 
 	top: 0; 
 	left: 0; 
 	
@@ -16,21 +18,41 @@
 	flex-direction: column;
 }
 
+body 
+{
+	display:flex;
+	justify-content:center;
+	
+	margin-left:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-right:auto;
+}
+
+body p
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body img 
+{
+	display: block;
+	margin-left: auto;
+}
+
 header
 {
-	font-family: "Century Gothic";
 	text-align: center;
+	
 	display:flex;
 	justify-content:center;
 }
 
-body
-{
-}
-
 footer
 {
-	background-image: linear-gradient(red,cyan);
+	background-image: linear-gradient(purple,cyan);
 	box-shadow: 1px 10px 10px black;
 	
 	display:flex;
@@ -41,7 +63,7 @@ footer a
 {
 	color:white;
 	padding: 10px;
-	background-image: linear-gradient(red,orange);
+	background-image: linear-gradient(black,red);
 	border: solid 2px white;
 	border-radius:10px;
 	box-shadow: 10px 10px 5px black;
